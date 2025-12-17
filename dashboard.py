@@ -42,7 +42,7 @@ if uploaded_file:
             uploaded_file.seek(0)
 
             response = requests.post(
-                "http://127.0.0.1:8000/validate",
+                "https://provider-data-validation-ai.onrender.com/validate",
                 files={
                     "file": (
                         file_name,
